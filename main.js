@@ -24,7 +24,7 @@ const productos = [
   { nombre: "Cinta métrica", categoria: "Ferretería", precio: 25 },
 ];
 
-let contenedor2 = document.querySelector("#heladeria");
+let contenedor2 = document.querySelector("#catalogo");
 
 for (let i = 0; i < productos.length; i++) {
   if (productos[i].categoria === "Ferretería") {
